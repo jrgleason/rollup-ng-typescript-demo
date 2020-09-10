@@ -2,9 +2,9 @@
   "compilerOptions": {
     "sourceMap": true,
     "moduleResolution": "Node",
-    "target": "ES2017",
+    "target": "ESNext",
     "module": "ESNext",
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
   },
   "exclude": [
     "out",

@@ -13,7 +13,8 @@ export default {
       globals:{
         "@angular/core": "@angular/core",
         "@angular/common": "@angular/common",
-        "@angular/platform-browser":"@angular/platform-browser"
+        "@angular/platform-browser":"@angular/platform-browser",
+        "@angular/compiler":"@angular/compiler"
       },
       intro: "const global = window;"
     }
