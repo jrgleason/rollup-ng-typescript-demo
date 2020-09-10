@@ -2,7 +2,7 @@
   "compilerOptions": {
     "sourceMap": true,
     "moduleResolution": "Node",
-    "target": "ESNext",
+    "target": "ES2017",
     "module": "ESNext",
     "experimentalDecorators": true
   },
@@ -11,6 +11,7 @@
     "rollup.config.mjs"
   ],
   "include": [
-    "node_modules"
+    "node_modules",
+    "ng"
   ]
 }

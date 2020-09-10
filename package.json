@@ -22,10 +22,13 @@
     "url": "https://github.com/jrgleason/rollup-ng-typescript-demo/issues"
   },
   "homepage": "https://github.com/jrgleason/rollup-ng-typescript-demo#readme",
-  "dependencies": {
-    "@angular/core": "latest"
-  },
   "devDependencies": {
+    "@angular/core": "latest",
+    "@angular/common": "latest",
+    "@angular/platform-browser": "latest",
+    "@angular/platform-browser-dynamic": "latest",
+    "@angular/elements": "latest",
+    "reflect-metadata": "latest",
     "@rollup/plugin-commonjs": "latest",
     "@rollup/plugin-node-resolve": "latest",
     "@rollup/plugin-typescript": "latest",
