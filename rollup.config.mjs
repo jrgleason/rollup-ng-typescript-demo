@@ -23,13 +23,9 @@ export default {
       jsnext:"main",
       browser: true
     }),
+    typescript(),
     commonjs({
       include: 'node_modules/**'
     }),
-    typescript()
-
-    // commonjs({
-    //   include: 'node_modules/**'
-    // })
   ]
 }
