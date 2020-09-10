@@ -1,10 +1,16 @@
 <html>
 <head>
-
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <!-- TODO: Required by angular but can be removed -->
+    <script src="https://unpkg.com/@reactivex/rxjs@6.5.3/dist/global/rxjs.umd.js"></script>
+    <script src="https://unpkg.com/zone.js@0.11.1/bundles/zone.umd.js"></script>
+    <script src="https://unpkg.com/reflect-metadata@0.1.13/Reflect.js"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/@angular/core@10.1.1/bundles/core.umd.min.js"></script>-->
+    <script src="./out/ng-demo.umd.js"></script>
+    <base href="/">
 </head>
 <body>
-<jrg-ng-test></jrg-ng-test>
-<script src="https://unpkg.com/reflect-metadata@0.1.13/Reflect.js"></script>
-<script src="./out/ng-demo.umd.js"></script>
+<ng-component></ng-component>
 </body>
 </html>

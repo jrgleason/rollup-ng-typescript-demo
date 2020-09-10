@@ -10,8 +10,3 @@ I prefer to be as vanilla in terms of ECMAScript as possible. However, there are
 1. `npm run rollup`
 1. Open the Test.html file in a web browser
 
-## Coming soon
-
-1. Add Service and Component examples.
-
-P.R.s and comments welcome!
