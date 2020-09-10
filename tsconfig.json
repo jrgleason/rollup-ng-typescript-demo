@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "moduleResolution": "Node",
+    "target": "ESNext",
+    "module": "ESNext",
+    "experimentalDecorators": true
+  },
+  "exclude": [
+    "out",
+    "rollup.config.mjs"
+  ],
+  "include": [
+    "node_modules"
+  ]
+}

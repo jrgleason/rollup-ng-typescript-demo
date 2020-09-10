@@ -8,16 +8,26 @@ export default {
     {
       file:"./out/ng-demo.umd.js",
       format:"umd",
-      name:"demo-app"
-    },{
-      file: './out/ng-demo.cjs',
-      format: 'cjs'
+      name:"demo-app",
+      sourcemap: "inline",
+      globals:{
+        "@angular/core": "core"
+      },
+      intro: "const global = window;"
     }
   ],
   plugins: [
-    commonjs(),
-    resolve(),
-    // typescript(),
+    resolve({
+      module: true,
+      main: true,
+      jsnext:"main",
+      browser: true
+    }),
+    commonjs({
+      include: 'node_modules/**'
+    }),
+    typescript()
+
     // commonjs({
     //   include: 'node_modules/**'
     // })
