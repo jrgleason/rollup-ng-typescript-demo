@@ -11,7 +11,7 @@ export default {
       name:"demo-app",
       sourcemap: "inline",
       globals:{
-        "@angular/core": "core"
+        "@angular/core": "@angular/core"
       },
       intro: "const global = window;"
     }
