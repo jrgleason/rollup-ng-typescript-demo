@@ -3,7 +3,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 
 export default {
-  input: "index.mjs",
+  input: "ng/Application.ts",
   output: [
     {
       file:"./out/ng-demo.umd.js",
