@@ -1,8 +1,3 @@
-// import {Application} from "./Application";
-//
-// export {Application}
-import {NgModule} from "@angular/core";
+import {Application} from "./ng/Application.ts";
 
-global.NgModule = NgModule
-
-export {NgModule}
+export {Application}
